@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Helper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <section id="wrapper">
+
+        <section class="main">
+            <h1>Crossword Helper!</h1>
+
+            <h3>Enter the letters you already have in your crossword </h3>
+
+            <!-- button to remove an input box -->
+            <button type="button" id="remove-box">&minus;</button>
+
+            <!-- Input Boxes dynamically created in JS -->
+            <form action="#" id="word-search-form"></form>
+
+            <!-- button to add an extra input box -->
+            <button type="button" id="add-box">&plus;</button>
+
+            <!-- Button to search -->
+            <div>
+                <button id="word-search">Search</button>
+            </div>
+        </section>
+
+        <!-- word search results -->
+        <aside id="results-container">
+            <h3 id="word-search-header">Words you could use:</h3>
+            <p id="word-search-results"></p>
+        </aside>
+
+    </section>
+
+</body>
+
+</html>
